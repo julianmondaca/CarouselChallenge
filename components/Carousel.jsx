@@ -26,7 +26,7 @@ export const Carousel = () => {
 	return (
 		<View style={styles.carousel}>
 			<Text style={styles.txt}>Carousel challenge</Text>
-			<View style={styles.container}>
+			<View>
 				<Image
 					source={{
 						uri: data[index].images[

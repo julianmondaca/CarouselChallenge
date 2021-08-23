@@ -16,12 +16,6 @@ const styles = StyleSheet.create({
 		width: "%100",
 		height: "%100",
 	},
-	container: {
-		width: "%100",
-		height: "%100",
-		flexDirection: "column",
-		justifyContent: "space-between",
-	},
 	img: {
 		borderRadius: 15,
 		paddingBottom: 100,
@@ -32,7 +26,6 @@ const styles = StyleSheet.create({
 	btnRigth: {
 		borderRadius: 50,
 		marginTop: 70,
-		borderColor: "green",
 		padding: 3,
 		position: "absolute",
 		right: 2,
